@@ -1,0 +1,20 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-07-14 21:53:32
+ * @LastEditTime: 2020-07-14 21:53:50
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \vue-ssr\src\index.template.html
+--> 
+<html>
+  <head>
+    <!-- 使用双花括号(double-mustache)进行 HTML 转义插值(HTML-escaped interpolation) -->
+    <title>{{ title }}</title>
+
+    <!-- 使用三花括号(triple-mustache)进行 HTML 不转义插值(non-HTML-escaped interpolation) -->
+    {{{ meta }}}
+  </head>
+  <body>
+    <!--vue-ssr-outlet-->
+  </body>
+</html>
